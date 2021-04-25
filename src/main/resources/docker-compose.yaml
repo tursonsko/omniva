@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  omniva-db:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: haselko
+      MYSQL_DATABASE: omniva-db
+    ports:
+      - 3306:3306
+    volumes:
+      - omniva-volume:/var/lib/mysql
+
+volumes:
+  omniva-volume:

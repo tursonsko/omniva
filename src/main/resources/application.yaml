@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/omniva-db
+    username: root
+    password: haselko
+  jpa:
+    hibernate.ddl-auto: create-drop
+    generate-ddl: true
+    show-sql: true
+
+external:
+  host:
+    address: https://www.omniva.ee
+    uri: /locations.json
