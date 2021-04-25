@@ -7,7 +7,7 @@
 ## Local setup
 1) To install the app locally, please clone this repo: "git clone https://github.com/tursonsko/omniva.git"
 2) Open Docker CLI and go to path with project resources (..src/main/resources)
-3) provide command "docker-compose up -d"
+3) provide command "docker-compose up -d" to create docker container with MySQL database
 4) Run app in your IDE or in Shell
 
 ## Further improvements
